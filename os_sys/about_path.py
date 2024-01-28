@@ -20,3 +20,4 @@ os.path.dirname(os.path.abspath((os.path.dirname(__file__))))   #현재 파일�
 shutil.rmtree("path")   #지정해준 path이하 tree전부 삭제
 
 local_dir = Path("D:/test/hi")  #변수를 문자열이 아닌 경로로 인식하여 경로 다룰 때 사용하기 편해짐
+new_dir = local_dir / "someting" #Path로 지정한 후에는 다음과 같은 형태로 사용가능
